@@ -1,0 +1,87 @@
+#---------------------------------------------------------------------- Makefile ----------------------------------------------------------------------#
+.DEFAULT: mrproper 
+.PHONY: clean mrproper manage_repository infoComp infoFinComp all default
+.DELETE_ON_ERROR : mrproper
+
+.INIT: mrproper
+.VARIABLE: CC SOURCES_DIR OBJECTS_DIR OBJS CFLAGS LDFLAGS DEPS TARGET HEARDER_DIR
+
+#________________________________________ Architectures du project
+CC = gcc
+SRC = src
+OBJ = obj
+EXEC_DIR = executables
+SOURCES_DIR = $(SRC)/comparator
+OBJECTS_DIR = $(OBJ)/comparator
+HEARDER_DIR = headers/comparator
+#________________________________________ Options pour la compilation
+CFLAGS ?= -Wall -MMD -g
+LDFLAGS := -lfreeimage -lm
+#________________________________________ Dépendances et récuperation des données du  project
+DEPS := $(OBJS : .o = .d) 
+TARGET ?= comparator
+OBJS = $(shell find ./$(SOURCES_DIR) -name "*.c"|sed 's/.c$$/.o/g'|sed 's/src/obj/g')
+OBJS += $(OBJ)/triplets/Triplet.o
+
+#________________________________________ Compilation des fichiers
+#________________ Commandes pour la compilation
+default: all
+
+$(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.c $(HEARDER_DIR)/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJ)/triplets/Triplet.o:  $(SRC)/triplets/Triplet.c headers/triplets/Triplet.h
+	$(CC) $(CFLAGS) $(SRC)/triplets/Triplet.c -c $(OBJ)/triplets/Triplet.o
+	@mv Triplet.o $(OBJ)/triplets/
+	@mv Triplet.d $(OBJ)/triplets/
+	
+all: manage_repository infoComp $(TARGET) infoFinComp
+
+$(TARGET): $(OBJS)
+	$(CC) $(OBJS) -o $(TARGET) $(LDFLAGS)
+	@mv $(TARGET) $(EXEC_DIR)
+
+#________________ Information sur la compilation
+
+infoComp:
+	@echo "---------------- Compilation --------------------"
+	@echo "[WAITING]Début de la compilation des .o"
+
+infoFinComp:
+	@echo "[CHECK]Fin de la compilation des .o"
+	@echo "---------------- Assemblage ---------------------"
+	@echo "[WAITING]Generation de l'executable pour le programme..."
+	@echo "[CHECK]Generation de l'executable pour le programme validé."
+#________________________________________ Nettoyage 
+
+manage_repository:
+	@echo "---------------- Création des dossiers ----------"
+	@echo "[WAITING]Creation des dossiers..."
+	@mkdir -p $(OBJ)
+	@mkdir -p $(OBJECTS_DIR)
+	@mkdir -p executables
+	@mkdir -p $(OBJ)/triplets
+	@echo "[CHECK]Creation des dossiers validé."
+
+clean: 
+	@echo "---------------- Nettoyage ----------------------"
+	@echo "[WAITING]Nettoyage des objects..."
+	rm -rf $(OBJECTS_DIR)
+	@echo "[CHECK]Nettoyage des objects terminé"
+
+mrproper:
+	@echo "---------------- Nettoyage ----------------------"
+	@echo "[WAITING]Nettoyage des objects et de l'executable..."
+	rm -rf $(OBJECTS_DIR)
+	rm -rf $(OBJ)/triplets
+	rm -f rm -f $(EXEC_DIR)/$(TARGET)
+	@echo "[CHECK]Nettoyage des objects et de l'executable terminé."
+
+doc:
+	@echo "[WAITING]Création des documentations..."	
+	rm -rf doc
+	@mkdir -p doc
+	doxygen Doxyfile
+	@echo "[CHECK]Création des documentations valides."
+
+-include $(DEPS)
