@@ -1,0 +1,16 @@
+{
+	"files.associations": {
+		"iostream": "cpp",
+		"cstdarg": "cpp",
+		"exception": "cpp",
+		"cfloat": "cpp",
+		"array": "cpp",
+		"deque": "cpp",
+		"string": "cpp",
+		"unordered_map": "cpp",
+		"vector": "cpp",
+		"string_view": "cpp",
+		"initializer_list": "cpp",
+		"utility": "cpp"
+	}
+}

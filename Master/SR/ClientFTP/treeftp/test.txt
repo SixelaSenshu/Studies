@@ -1,0 +1,1850 @@
+[Connection] Connection in progress to the server ftp.ubuntu.com on the port 21...
+[Connection] Server > 220 FTP server (vsftpd)
+[Connection] Connexion client has succeded !
+[Connection] Client>QUIT
+[Connection] 221 Goodbye.
+null
+[Connection] Connection in progress to the server ftp.ubuntu.com on the port 21...
+[Connection] Server > 220 FTP server (vsftpd)
+[Connection] Connexion client has succeded !
+[Connection] Authentification en cours...
+[Connection] Client>USER anonymous
+[Connection] 331 Please specify the password.
+[Connection] Client>PASS anonymous
+[Connection] 230 Login successful.
+[Connection] Authentification has succed !
+[Connection] Client>QUIT
+[Connection] 221 Goodbye.
+null
+[Connection] Connection in progress to the server ftp.ubuntu.com on the port 21...
+[Connection] Server > 220 FTP server (vsftpd)
+[Connection] Connexion client has succeded !
+[Connection] Authentification en cours...
+[Connection] Client>USER anonymous
+[Connection] 331 Please specify the password.
+[Connection] Client>PASS anonymous
+[Connection] 230 Login successful.
+[Connection] Authentification has succed !
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,239,116)
+227 Entering Passive Mode (185,125,190,39,239,116)
+Port -> 61300
+[Connection] Client>QUIT
+[Connection] 221 Goodbye.
+null
+[Connection] Connection in progress to the server ftp.ubuntu.com on the port 21...
+[Connection] Server > 220 FTP server (vsftpd)
+[Connection] Connexion client has succeded !
+[Connection] Authentification en cours...
+[Connection] Client>USER anonymous
+[Connection] 331 Please specify the password.
+[Connection] Client>PASS anonymous
+[Connection] 230 Login successful.
+[Connection] Authentification has succed !
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,124,210)
+227 Entering Passive Mode (185,125,190,39,124,210)
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>CWD /
+[Command] 250 Directory successfully changed.
+[Command] Client>LIST /
+[Connection] Client>QUIT
+[Connection] 150 Here comes the directory listing.
+[Connection] 226 Directory send OK.
+[Connection] Client>QUIT
+[Checking] Checking of adress ...
+[Checking] Adress : ftp.ubuntu.com
+[Checking] Reachable !
+[Checking] Checking of login parameters ...
+[Checking] Login : anonymous
+[Checking] Password : anonymous
+[Checking] Checking of optional parameters ...
+[Checking] Checking of adress ...
+[Checking] Adress : ftp.ubuntu.com
+[Checking] Reachable !
+[Checking] Checking of login parameters ...
+[Checking] Login : anonymous
+[Checking] Password : anonymous
+[Checking] Checking of optional parameters ...
+[Checking] Defined format : Json
+[Checking] Checking of adress ...
+[Checking] Adress : ftp.ubuntu.com
+[Checking] Reachable !
+[Checking] Checking of login parameters ...
+[Checking] Checking of optional parameters ...
+[Checking] Defined format : Json
+[Checking] Checking of adress ...
+[Checking] Adress : ftp.ubuntu.com
+[Checking] Reachable !
+[Checking] Checking of login parameters ...
+[Checking] Checking of optional parameters ...
+[Connection] Connection in progress to the server ftp.ubuntu.com on the port 21...
+[Connection] Server > 220 FTP server (vsftpd)
+[Connection] Connexion client has succeded !
+[Connection] Authentification en cours...
+[Connection] Client>USER anonymous
+[Connection] 331 Please specify the password.
+[Connection] Client>PASS anonymous
+[Connection] 230 Login successful.
+[Connection] Authentification has succed !
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,25,33)
+227 Entering Passive Mode (185,125,190,39,25,33)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[cdicons, daily-live, daily-preinstalled, edubuntu, experimental, include, jammy, kubuntu, lubuntu, lunar, mantic, mythbuntu, netboot, nvidia-tegra, releases, source, streams, ubuntu, ubuntu-appliance, ubuntu-base, ubuntu-budgie, ubuntu-core, ubuntu-gnome, ubuntu-legacy-server, ubuntu-mate, ubuntu-mini-iso, ubuntu-server, ubuntu-unity, ubuntucinnamon, ubuntukylin, ubuntustudio, xenial, xubuntu]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,224,176)
+227 Entering Passive Mode (185,125,190,39,224,176)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/cdicons
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,135,158)
+227 Entering Passive Mode (185,125,190,39,135,158)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-live
+lrwxrwxrwx    1 997      997             8 Oct 16 11:19 manual -> 20231013
+lrwxrwxrwx    1 997      997             8 Jan 26 06:28 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126, current]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,220,236)
+227 Entering Passive Mode (185,125,190,39,220,236)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-live/20240125
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,43,52)
+227 Entering Passive Mode (185,125,190,39,43,52)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-live/20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,172,231)
+227 Entering Passive Mode (185,125,190,39,172,231)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-live/current
+lrwxrwxrwx    1 997      997            35 Jan 26 06:28 noble-desktop-amd64.iso -> ../20240125/noble-desktop-amd64.iso
+lrwxrwxrwx    1 997      997            41 Jan 26 06:28 noble-desktop-amd64.iso.zsync -> ../20240125/noble-desktop-amd64.iso.zsync
+lrwxrwxrwx    1 997      997            36 Jan 26 06:28 noble-desktop-amd64.list -> ../20240125/noble-desktop-amd64.list
+lrwxrwxrwx    1 997      997            40 Jan 26 06:28 noble-desktop-amd64.manifest -> ../20240125/noble-desktop-amd64.manifest
+lrwxrwxrwx    1 997      997            40 Jan 26 06:28 noble-desktop-arm64+x13s.iso -> ../20240126/noble-desktop-arm64+x13s.iso
+lrwxrwxrwx    1 997      997            46 Jan 26 06:28 noble-desktop-arm64+x13s.iso.zsync -> ../20240126/noble-desktop-arm64+x13s.iso.zsync
+lrwxrwxrwx    1 997      997            41 Jan 26 06:28 noble-desktop-arm64+x13s.list -> ../20240126/noble-desktop-arm64+x13s.list
+lrwxrwxrwx    1 997      997            45 Jan 26 06:28 noble-desktop-arm64+x13s.manifest -> ../20240126/noble-desktop-arm64+x13s.manifest
+lrwxrwxrwx    1 997      997            35 Jan 26 06:28 noble-desktop-arm64.iso -> ../20240126/noble-desktop-arm64.iso
+lrwxrwxrwx    1 997      997            41 Jan 26 06:28 noble-desktop-arm64.iso.zsync -> ../20240126/noble-desktop-arm64.iso.zsync
+lrwxrwxrwx    1 997      997            36 Jan 26 06:28 noble-desktop-arm64.list -> ../20240126/noble-desktop-arm64.list
+lrwxrwxrwx    1 997      997            40 Jan 26 06:28 noble-desktop-arm64.manifest -> ../20240126/noble-desktop-arm64.manifest
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,147,70)
+227 Entering Passive Mode (185,125,190,39,147,70)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-preinstalled
+lrwxrwxrwx    1 997      997             8 Jan 26 06:52 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Sep 27 23:54 manual -> 20230926
+lrwxrwxrwx    1 997      997             8 Jan 26 06:52 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20230926, 20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,28,228)
+227 Entering Passive Mode (185,125,190,39,28,228)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-preinstalled/20230926
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,56,201)
+227 Entering Passive Mode (185,125,190,39,56,201)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-preinstalled/20240125
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,141,189)
+227 Entering Passive Mode (185,125,190,39,141,189)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/daily-preinstalled/20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,136,12)
+227 Entering Passive Mode (185,125,190,39,136,12)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/edubuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,195,220)
+227 Entering Passive Mode (185,125,190,39,195,220)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/edubuntu/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 02:15 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 02:15 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240125.1, 20240125.2, 20240125.3, 20240125.4, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,135,84)
+227 Entering Passive Mode (185,125,190,39,135,84)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/edubuntu/releases
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 07:56 23.10 -> mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[lunar, mantic]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,28,90)
+227 Entering Passive Mode (185,125,190,39,28,90)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/experimental
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[streams, ubuntu-core-desktop]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,42,77)
+227 Entering Passive Mode (185,125,190,39,42,77)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/experimental/streams
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[v1]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,132,79)
+227 Entering Passive Mode (185,125,190,39,132,79)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/experimental/ubuntu-core-desktop
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[22]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,109,123)
+227 Entering Passive Mode (185,125,190,39,109,123)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/include
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[kubuntu, lubuntu, xubuntu]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,125,103)
+227 Entering Passive Mode (185,125,190,39,125,103)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/include/kubuntu
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[images]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,89,47)
+227 Entering Passive Mode (185,125,190,39,89,47)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/include/lubuntu
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,190,154)
+227 Entering Passive Mode (185,125,190,39,190,154)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/include/xubuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,209,12)
+227 Entering Passive Mode (185,125,190,39,209,12)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/jammy
+lrwxrwxrwx    1 997      997            23 Aug 11  2022 source -> ../source/jammy/source/
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, daily-preinstalled]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,33,99)
+227 Entering Passive Mode (185,125,190,39,33,99)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/jammy/daily-live
+lrwxrwxrwx    1 997      997            10 Apr 12  2023 manual -> 20230316.2
+lrwxrwxrwx    1 997      997             8 Jan 26 08:27 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20230316.2, 20231011, 20240125, 20240126, current]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,141,125)
+227 Entering Passive Mode (185,125,190,39,141,125)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/jammy/daily-preinstalled
+lrwxrwxrwx    1 997      997             8 Jan 26 08:49 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 08:49 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,64,133)
+227 Entering Passive Mode (185,125,190,39,64,133)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/kubuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,145,250)
+227 Entering Passive Mode (185,125,190,39,145,250)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/kubuntu/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 07:59 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 07:59 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,211,7)
+227 Entering Passive Mode (185,125,190,39,211,7)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/kubuntu/jammy
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,63,200)
+227 Entering Passive Mode (185,125,190,39,63,200)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/kubuntu/releases
+lrwxrwxrwx    1 997      997             6 Mar 25  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 17:28 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 07:49 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,67,183)
+227 Entering Passive Mode (185,125,190,39,67,183)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/lubuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,217,138)
+227 Entering Passive Mode (185,125,190,39,217,138)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/lubuntu/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 16:54 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 16:54 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,110,33)
+227 Entering Passive Mode (185,125,190,39,110,33)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/lubuntu/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,146,136)
+227 Entering Passive Mode (185,125,190,39,146,136)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/lubuntu/releases
+lrwxrwxrwx    1 997      997             6 Jan 04  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Apr 06  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 17:40 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 23:37 23.10 -> mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,156,47)
+227 Entering Passive Mode (185,125,190,39,156,47)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/lunar
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,191,146)
+227 Entering Passive Mode (185,125,190,39,191,146)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[source]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,143,71)
+227 Entering Passive Mode (185,125,190,39,143,71)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/mantic/source
+lrwxrwxrwx    1 997      997            50 Nov 22 03:49 20231011.1 -> /srv/cdimage.ubuntu.com/www/full/source/20231011.1
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,75,188)
+227 Entering Passive Mode (185,125,190,39,75,188)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/mythbuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,119,29)
+227 Entering Passive Mode (185,125,190,39,119,29)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/mythbuntu/daily-live
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,150,18)
+227 Entering Passive Mode (185,125,190,39,150,18)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/mythbuntu/releases
+lrwxrwxrwx    1 997      997             6 Mar 25  2016 16.04 -> xenial
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,59,184)
+227 Entering Passive Mode (185,125,190,39,59,184)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/netboot
+lrwxrwxrwx    1 997      997             6 Jan 31  2014 14.04 -> trusty
+lrwxrwxrwx    1 997      997             6 Feb 19  2015 14.04.1 -> trusty
+lrwxrwxrwx    1 997      997             6 Feb 19  2015 14.04.2 -> trusty
+lrwxrwxrwx    1 997      997             6 Aug 06  2015 14.04.3 -> trusty
+lrwxrwxrwx    1 997      997             6 Dec 09  2015 14.04.4 -> trusty
+lrwxrwxrwx    1 997      997             6 Aug 04  2016 14.04.5 -> trusty
+lrwxrwxrwx    1 997      997             6 Jan 12  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Jul 20  2016 16.04.1 -> xenial
+lrwxrwxrwx    1 997      997             6 Feb 16  2017 16.04.2 -> xenial
+lrwxrwxrwx    1 997      997             6 Aug 03  2017 16.04.3 -> xenial
+lrwxrwxrwx    1 997      997             6 Jul 25  2018 16.04.4 -> xenial
+lrwxrwxrwx    1 997      997             6 Jul 25  2018 16.04.5 -> xenial
+lrwxrwxrwx    1 997      997             6 Apr 06  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Jul 25  2018 18.04.1 -> bionic
+lrwxrwxrwx    1 997      997             6 Feb 15  2019 18.04.2 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 08  2019 18.04.3 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 23  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             6 Oct 14  2021 jammy -> focal/
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, focal, trusty, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,64,112)
+227 Entering Passive Mode (185,125,190,39,64,112)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/netboot/bionic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,217,149)
+227 Entering Passive Mode (185,125,190,39,217,149)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/netboot/focal
+lrwxrwxrwx    1 997      997             5 Jul 17  2022 22.04 -> 22.04
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,175,140)
+227 Entering Passive Mode (185,125,190,39,175,140)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/netboot/trusty
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,191,54)
+227 Entering Passive Mode (185,125,190,39,191,54)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/netboot/xenial
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,249,103)
+227 Entering Passive Mode (185,125,190,39,249,103)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/nvidia-tegra
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[streams, ubuntu-server]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,32,187)
+227 Entering Passive Mode (185,125,190,39,32,187)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/nvidia-tegra/streams
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[v1]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,159,112)
+227 Entering Passive Mode (185,125,190,39,159,112)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/nvidia-tegra/ubuntu-server
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[jammy]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,32,105)
+227 Entering Passive Mode (185,125,190,39,32,105)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases
+lrwxrwxrwx    1 997      997             6 Jan 23  2014 14.04 -> trusty
+lrwxrwxrwx    1 997      997             6 Mar 07  2019 14.04.6 -> trusty
+lrwxrwxrwx    1 997      997             6 Feb 17  2017 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 16.04.7 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             6 Sep 16  2021 18.04.6 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 18:16 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 07:05 23.10 -> mantic
+lrwxrwxrwx    1 997      997             6 Oct 16 13:59 23.10.1 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[bionic, focal, jammy, lunar, mantic, streams, trusty, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,57,175)
+227 Entering Passive Mode (185,125,190,39,57,175)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/bionic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,56,107)
+227 Entering Passive Mode (185,125,190,39,56,107)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/focal
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,29,173)
+227 Entering Passive Mode (185,125,190,39,29,173)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/jammy
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,162,146)
+227 Entering Passive Mode (185,125,190,39,162,146)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/lunar
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,44,240)
+227 Entering Passive Mode (185,125,190,39,44,240)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,119,181)
+227 Entering Passive Mode (185,125,190,39,119,181)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/streams
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[v1]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,226,15)
+227 Entering Passive Mode (185,125,190,39,226,15)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/trusty
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,223,228)
+227 Entering Passive Mode (185,125,190,39,223,228)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/releases/xenial
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[release]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,92,109)
+227 Entering Passive Mode (185,125,190,39,92,109)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source
+lrwxrwxrwx    1 997      997            10 Oct 11 14:54 pending -> 20231011.1
+lrwxrwxrwx    1 997      997             1 Jul 28  2017 source -> .
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20231011.1, bionic, current, jammy, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,56,244)
+227 Entering Passive Mode (185,125,190,39,56,244)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source/20231011.1
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[source]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,94,200)
+227 Entering Passive Mode (185,125,190,39,94,200)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source/bionic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[source]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,41,245)
+227 Entering Passive Mode (185,125,190,39,41,245)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source/current
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,38,102)
+227 Entering Passive Mode (185,125,190,39,38,102)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[source]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,186,194)
+227 Entering Passive Mode (185,125,190,39,186,194)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/source/xenial
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[source]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,171,237)
+227 Entering Passive Mode (185,125,190,39,171,237)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/streams
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[v1]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,135,111)
+227 Entering Passive Mode (185,125,190,39,135,111)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/streams/v1
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,138,90)
+227 Entering Passive Mode (185,125,190,39,138,90)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu
+lrwxrwxrwx    1 997      997            13 Jan 29  2015 daily-live -> ../daily-live
+lrwxrwxrwx    1 997      997            21 Oct 07  2020 daily-preinstalled -> ../daily-preinstalled
+lrwxrwxrwx    1 997      997            11 Jan 29  2015 releases -> ../releases
+lrwxrwxrwx    1 997      997            10 Apr 01  2021 source -> ../source/
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,158,161)
+227 Entering Passive Mode (185,125,190,39,158,161)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-appliance
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[18]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,25,59)
+227 Entering Passive Mode (185,125,190,39,25,59)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-appliance/18
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[stable]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,129,5)
+227 Entering Passive Mode (185,125,190,39,129,5)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, daily, focal, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,41,10)
+227 Entering Passive Mode (185,125,190,39,41,10)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base/bionic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,120,85)
+227 Entering Passive Mode (185,125,190,39,120,85)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base/daily
+lrwxrwxrwx    1 997      997             8 Jan 26 05:47 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 05:47 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,90,213)
+227 Entering Passive Mode (185,125,190,39,90,213)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base/focal
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,69,108)
+227 Entering Passive Mode (185,125,190,39,69,108)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,140,236)
+227 Entering Passive Mode (185,125,190,39,140,236)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-base/releases
+lrwxrwxrwx    1 997      997             6 Mar 27  2014 14.04 -> trusty
+lrwxrwxrwx    1 997      997             6 Jul 24  2014 14.04.1 -> trusty
+lrwxrwxrwx    1 997      997             6 Feb 19  2015 14.04.2 -> trusty
+lrwxrwxrwx    1 997      997             6 Aug 06  2015 14.04.3 -> trusty
+lrwxrwxrwx    1 997      997             6 Feb 18  2016 14.04.4 -> trusty
+lrwxrwxrwx    1 997      997             6 Aug 04  2016 14.04.5 -> trusty
+lrwxrwxrwx    1 997      997             6 Mar 07  2019 14.04.6 -> trusty
+lrwxrwxrwx    1 997      997             6 Mar 25  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Jul 21  2016 16.04.1 -> xenial
+lrwxrwxrwx    1 997      997             6 Feb 16  2017 16.04.2 -> xenial
+lrwxrwxrwx    1 997      997             6 Aug 03  2017 16.04.3 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 01  2018 16.04.4 -> xenial
+lrwxrwxrwx    1 997      997             6 Aug 02  2018 16.04.5 -> xenial
+lrwxrwxrwx    1 997      997             6 Feb 28  2019 16.04.6 -> xenial
+lrwxrwxrwx    1 997      997             6 Apr 06  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Jul 26  2018 18.04.1 -> bionic
+lrwxrwxrwx    1 997      997             6 Feb 14  2019 18.04.2 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 08  2019 18.04.3 -> bionic
+lrwxrwxrwx    1 997      997             6 Feb 12  2020 18.04.4 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 06  2020 20.04.1 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 04  2021 20.04.2 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 17:59 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 06:35 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[bionic, focal, jammy, lunar, mantic, trusty, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,223,244)
+227 Entering Passive Mode (185,125,190,39,223,244)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-budgie
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-legacy, daily-live, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,160,247)
+227 Entering Passive Mode (185,125,190,39,160,247)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-budgie/daily-legacy
+lrwxrwxrwx    1 997      997             8 Jan 17 16:07 current -> 20240117
+lrwxrwxrwx    1 997      997             8 Jan 17 16:07 pending -> 20240117
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240116, 20240117]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,237,170)
+227 Entering Passive Mode (185,125,190,39,237,170)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-budgie/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 15:33 current -> 20240126
+lrwxrwxrwx    1 997      997             9 Oct 16 09:26 manual -> 20231013/
+lrwxrwxrwx    1 997      997             8 Jan 26 15:33 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,146,12)
+227 Entering Passive Mode (185,125,190,39,146,12)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-budgie/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,60,212)
+227 Entering Passive Mode (185,125,190,39,60,212)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-budgie/releases
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 17:43 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 06:23 23.10 -> mantic
+lrwxrwxrwx    1 997      997             6 Oct 16 15:24 23.10.1 -> mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, focal, jammy, lunar, mantic]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,103,217)
+227 Entering Passive Mode (185,125,190,39,103,217)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[16, 18, 20, 22, appliances]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,182,133)
+227 Entering Passive Mode (185,125,190,39,182,133)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core/16
+lrwxrwxrwx    1 997      997             7 Jun 27  2019 current -> pending
+lrwxrwxrwx    1 997      997             8 Apr 17  2020 pending -> 20200417
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[beta, edge, stable]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,239,131)
+227 Entering Passive Mode (185,125,190,39,239,131)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core/18
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[beta, edge, stable]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,254,224)
+227 Entering Passive Mode (185,125,190,39,254,224)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core/20
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[beta, candidate, dangerous, dangerous-beta, dangerous-candidate, dangerous-edge, dangerous-stable, edge, stable]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,21,192)
+227 Entering Passive Mode (185,125,190,39,21,192)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core/22
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[beta, dangerous-beta, dangerous-edge, dangerous-stable, stable]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,21,46)
+227 Entering Passive Mode (185,125,190,39,21,46)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-core/appliances
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[streams]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,164,105)
+227 Entering Passive Mode (185,125,190,39,164,105)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-gnome
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,160,23)
+227 Entering Passive Mode (185,125,190,39,160,23)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-gnome/releases
+lrwxrwxrwx    1 997      997             6 Feb 25  2016 16.04 -> xenial
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,48,9)
+227 Entering Passive Mode (185,125,190,39,48,9)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-legacy-server
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,158,208)
+227 Entering Passive Mode (185,125,190,39,158,208)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-legacy-server/releases
+lrwxrwxrwx    1 997      997             5 Apr 23  2020 20.04 -> focal
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[focal]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,218,139)
+227 Entering Passive Mode (185,125,190,39,218,139)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mate
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,254,221)
+227 Entering Passive Mode (185,125,190,39,254,221)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mate/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 02:58 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 02:58 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,178,29)
+227 Entering Passive Mode (185,125,190,39,178,29)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mate/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,255,151)
+227 Entering Passive Mode (185,125,190,39,255,151)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mate/releases
+lrwxrwxrwx    1 997      997             6 Jan 04  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 18:02 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 07:33 23.10 -> mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,191,9)
+227 Entering Passive Mode (185,125,190,39,191,9)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mini-iso
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,131,81)
+227 Entering Passive Mode (185,125,190,39,131,81)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-mini-iso/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 09:47 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 09:47 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,81,228)
+227 Entering Passive Mode (185,125,190,39,81,228)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-server
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, daily-preinstalled, focal, jammy]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,158,230)
+227 Entering Passive Mode (185,125,190,39,158,230)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-server/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 09:36 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 08:21 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,182,141)
+227 Entering Passive Mode (185,125,190,39,182,141)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-server/daily-preinstalled
+lrwxrwxrwx    1 997      997             8 Jan 26 05:20 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 05:20 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,101,1)
+227 Entering Passive Mode (185,125,190,39,101,1)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-server/focal
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,170,13)
+227 Entering Passive Mode (185,125,190,39,170,13)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-server/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, daily-preinstalled]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,203,175)
+227 Entering Passive Mode (185,125,190,39,203,175)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-unity
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,145,49)
+227 Entering Passive Mode (185,125,190,39,145,49)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-unity/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 13:29 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 13:29 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,149,217)
+227 Entering Passive Mode (185,125,190,39,149,217)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntu-unity/releases
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 07:38 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[lunar, mantic]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,119,136)
+227 Entering Passive Mode (185,125,190,39,119,136)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntucinnamon
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,208,62)
+227 Entering Passive Mode (185,125,190,39,208,62)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntucinnamon/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 13:45 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 13:45 pending -> 20240126
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,71,20)
+227 Entering Passive Mode (185,125,190,39,71,20)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntucinnamon/releases
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 08:05 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[lunar, mantic]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,28,185)
+227 Entering Passive Mode (185,125,190,39,28,185)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntukylin
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[daily-live, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,249,190)
+227 Entering Passive Mode (185,125,190,39,249,190)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntukylin/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 25 22:44 current -> 20240125
+lrwxrwxrwx    1 997      997             8 Jan 25 22:44 pending -> 20240125
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240124, 20240125]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,32,139)
+227 Entering Passive Mode (185,125,190,39,32,139)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntukylin/jammy
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,201,8)
+227 Entering Passive Mode (185,125,190,39,201,8)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntukylin/releases
+lrwxrwxrwx    1 997      997             6 Jan 04  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 16.04.7 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 18:11 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 06:54 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,147,212)
+227 Entering Passive Mode (185,125,190,39,147,212)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntustudio
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, dvd, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,239,91)
+227 Entering Passive Mode (185,125,190,39,239,91)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntustudio/bionic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[dvd]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,250,51)
+227 Entering Passive Mode (185,125,190,39,250,51)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntustudio/dvd
+lrwxrwxrwx    1 997      997             8 Jan 26 19:02 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 19:02 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240124, 20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,97,202)
+227 Entering Passive Mode (185,125,190,39,97,202)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntustudio/jammy
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[dvd]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,167,92)
+227 Entering Passive Mode (185,125,190,39,167,92)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/ubuntustudio/releases
+lrwxrwxrwx    1 997      997             6 Feb 25  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Apr 06  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 18:06 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 06:35 23.10 -> mantic
+null
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+null
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,66,255)
+227 Entering Passive Mode (185,125,190,39,66,255)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xenial
+lrwxrwxrwx    1 997      997            24 Aug 13  2020 source -> ../source/xenial/source/
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,61,142)
+227 Entering Passive Mode (185,125,190,39,61,142)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xenial/daily-live
+lrwxrwxrwx    1 997      997             8 Aug 06  2020 current -> 20200806
+lrwxrwxrwx    1 997      997             8 Aug 06  2020 pending -> 20200806
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20200806]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,182,53)
+227 Entering Passive Mode (185,125,190,39,182,53)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xubuntu
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live, daily-minimal, jammy, releases]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,237,138)
+227 Entering Passive Mode (185,125,190,39,237,138)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xubuntu/daily-live
+lrwxrwxrwx    1 997      997             8 Jan 26 01:57 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 01:57 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,137,57)
+227 Entering Passive Mode (185,125,190,39,137,57)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xubuntu/daily-minimal
+lrwxrwxrwx    1 997      997             8 Jan 26 02:09 current -> 20240126
+lrwxrwxrwx    1 997      997             8 Jan 26 02:09 pending -> 20240126
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[20240125, 20240126]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,129,36)
+227 Entering Passive Mode (185,125,190,39,129,36)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xubuntu/jammy
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[daily-live]
+[Setting] Client>PASV
+[Setting] 227 Entering Passive Mode (185,125,190,39,54,230)
+227 Entering Passive Mode (185,125,190,39,54,230)
+[Command] Client>NOOP
+[Command] 200 NOOP ok.
+Client>USER anonymous
+Client>PASS anonymous
+[Command] Client>LIST /cdimage/xubuntu/releases
+lrwxrwxrwx    1 997      997             6 Feb 25  2016 16.04 -> xenial
+lrwxrwxrwx    1 997      997             6 Mar 09  2018 18.04 -> bionic
+lrwxrwxrwx    1 997      997             6 Aug 13  2020 18.04.5 -> bionic
+lrwxrwxrwx    1 997      997             5 Apr 03  2020 20.04 -> focal
+lrwxrwxrwx    1 997      997             5 Aug 26  2021 20.04.3 -> focal
+lrwxrwxrwx    1 997      997             5 Feb 24  2022 20.04.4 -> focal
+lrwxrwxrwx    1 997      997             5 Sep 01  2022 20.04.5 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 22  2023 20.04.6 -> focal
+lrwxrwxrwx    1 997      997             5 Mar 31  2022 22.04 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 11  2022 22.04.1 -> jammy
+lrwxrwxrwx    1 997      997             5 Feb 23  2023 22.04.2 -> jammy
+lrwxrwxrwx    1 997      997             5 Aug 10 17:48 22.04.3 -> jammy
+lrwxrwxrwx    1 997      997             5 Mar 31  2023 23.04 -> lunar
+lrwxrwxrwx    1 997      997             6 Sep 22 06:21 23.10 -> mantic
+[Command] 150 Here comes the directory listing.
+[Command] 226 Directory send OK.
+[Connection] Client>QUIT
+[bionic, focal, jammy, lunar, mantic, xenial]
+[Connection] Client>QUIT
+[Connection] 221 Goodbye.
+null

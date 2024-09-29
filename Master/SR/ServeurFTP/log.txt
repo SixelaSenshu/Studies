@@ -1,0 +1,12 @@
+Server Socket : ServerSocket[addr=/127.0.0.1,localport=8080]
+127.0.0.1
+8080
+CreateInputStreamError: CommandMaker.java (No such file or directory)
+CreateInputStreamError: atat.j (No such file or directory)
+Error: Accept timed out
+ClientRunError: java.lang.NullPointerException: Cannot invoke "java.io.PrintWriter.close()" because "outputStream" is null
+ClientRunError: java.lang.NullPointerException: Cannot invoke "java.io.PrintWriter.close()" because "outputStream" is null
+Error: Accept timed out
+Error: Accept timed out
+Error: Accept timed out
+Error: Accept timed out

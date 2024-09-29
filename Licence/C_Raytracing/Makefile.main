@@ -1,0 +1,111 @@
+#---------------------------------------------------------------------- Makefile ----------------------------------------------------------------------#
+.DEFAULT: mrproper err 
+.PHONY: clean mrproper doc zip manage_repository infoComp clean-local all err
+.DELETE_ON_ERROR : mrproper err
+
+.INIT: mrproper
+.VARIABLE: CC SOURCES_DIR OBJECTS_DIR DOC OBJS CFLAGS LPATH LLIB LDFLAGS DEPS TARGET DOCFILE
+
+#________________________________________ Architectures du project
+VAR= default
+CC = gcc
+EXEC_DIR = executables
+SOURCES_DIR = src
+OBJECTS_DIR = obj
+HEARDER_DIR = headers
+DOC = doc
+#________________________________________ Options pour la compilation
+CFLAGS ?= -Wall -MMD -g
+LDFLAGS := -lm -lfreeimage
+
+#________________________________________ Dépendances et récuperation des données du  project
+OBJS = $(shell find ./$(SOURCES_DIR) -name "*.c"|sed 's/.c$$/.o/g'|sed 's/src/obj/g')
+DEPS := $(OBJS : .o = .d) 
+TARGET ?= exec
+DOCFILE ?= Doxyfile
+
+#________________________________________ Compilation des fichiers
+#________________ Commandes pour la compilation
+default: all
+
+$(OBJECTS_DIR)/%.o: $(SOURCES_DIR)/%.c $(HEARDER_DIR)/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJECTS_DIR)/triplets/%.o:$(SOURCES_DIR)/triplets/%.c  $(HEARDER_DIR)/triplets/%.h	
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJECTS_DIR)/comparator/%.o: $(SOURCES_DIR)/comparator/%.c $(HEARDER_DIR)/comparator/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJECTS_DIR)/Tools/%.o: $(SOURCES_DIR)/Tools/%.c $(HEARDER_DIR)/Tools/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJECTS_DIR)/ReaderScene/%.o: $(SOURCES_DIR)/ReaderScene/%.c $(HEARDER_DIR)/ReaderScene/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+$(OBJECTS_DIR)/Raytrace/%.o: $(SOURCES_DIR)/Raytrace/%.c $(HEARDER_DIR)/2RaytraceD/%.h
+	$(CC) $(CFLAGS) -c $< -o $@ 
+
+all: manage_repository infoComp $(TARGET) infoFinComp
+
+$(TARGET): $(OBJS)
+	@echo $(OBJS)
+
+#________________ Information sur la compilation
+err:
+	@echo Problème de compilation de fichier
+
+infoComp:
+	@echo "---------------- Compilation --------------------"
+	@echo "[WAITING]Début de la compilation des .o"
+
+infoFinComp:
+	@echo "[CHECK]Fin de la compilation des .o"
+	@echo "---------------- Assemblage ---------------------"
+	@echo "[WAITING]Generation de l'executable pour le programme..."
+	@echo "[CHECK]Generation de l'executable pour le programme validé."
+#________________________________________ Nettoyage 
+
+manage_repository:
+	@echo "---------------- Création des dossiers ----------"
+	@echo "[WAITING]Creation des dossiers..."
+	@mkdir -p $(OBJECTS_DIR)
+	@mkdir -p $(OBJECTS_DIR)/comparator
+	@mkdir -p $(OBJECTS_DIR)/triplets
+	@mkdir -p $(OBJECTS_DIR)/ReaderScene
+	@mkdir -p $(OBJECTS_DIR)/Tools
+	@mkdir -p $(OBJECTS_DIR)/Raytrace
+	@echo "[CHECK]Creation des dossiers validé."
+
+clean: 
+	@echo "---------------- Nettoyage ----------------------"
+	@echo "[WAITING]Nettoyage des objects..."
+	rm -rf $(OBJECTS_DIR)
+	rm -rf $(OBJECTS_DIR)/comparator
+	rm -rf $(OBJECTS_DIR)/triplets
+	rm -rf $(OBJECTS_DIR)/ReaderScene
+	rm -rf $(OBJECTS_DIR)/Tools
+	rm -rf $(OBJECTS_DIR)/Raytrace
+	@echo "[CHECK]Nettoyage des objects terminé"
+
+mrproper:
+	@echo "---------------- Nettoyage ----------------------"
+	@echo "[WAITING]Nettoyage des objects et de l'executable..."
+	rm -rf $(OBJECTS_DIR)
+	rm -rf $(OBJECTS_DIR)/comparator
+	rm -rf $(OBJECTS_DIR)/triplets
+	rm -rf $(OBJECTS_DIR)/ReaderScene
+	rm -rf $(OBJECTS_DIR)/Tools
+	rm -rf $(OBJECTS_DIR)/Raytrace
+	rm -rf $(EXEC_DIR)
+	@echo "[CHECK]Nettoyage des objects et de l'executable terminé."
+
+#________________________________________ Gestion du project
+doc:
+	@echo "[WAITING]Création des documentations..."	
+	rm -rf doc
+	@mkdir -p doc
+	doxygen Doxyfile
+	@echo "[CHECK]Création des documentations valides."
+
+-include $(DEPS)

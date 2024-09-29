@@ -1,0 +1,134 @@
+.box {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    box-align: center;
+    border: 1px solid rgba(0, 0, 0, .6);
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 2%;
+
+    background-color: rgba(200, 200, 200, 1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+}
+
+.box-header {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    transition: all 1s;
+}
+
+.box-header:hover {
+    color: #141e30;
+}
+
+.box-header-informations {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.box-header-image {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#141e30, #243b55);
+    padding: 1%;
+    margin: 3%;
+    color: white;
+    text-align: center;
+}
+
+.box-content-syn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-content-syn h1 {
+    padding: 1% 0%;
+    font-size: 26px;
+    color: white;
+}
+
+.box-content-syn p {
+    padding: 1% 5%;
+    font-size: 15px;
+}
+
+.box-content-list-actors {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-content-list-actors h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+}
+
+.actor-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.actors-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actors-col {
+    flex-basis: calc(100% / 6);
+    margin: 10px;
+    text-align: center;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.movies-col {
+    width: 16.66%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.movies-col img {
+    max-width: 100%;
+    height: auto;
+}

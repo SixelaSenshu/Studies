@@ -1,0 +1,7 @@
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/CMakeFiles/test.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/CMakeFiles/edit_cache.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/CMakeFiles/rebuild_cache.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/tests/CMakeFiles/test_templates.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/tests/CMakeFiles/test.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/tests/CMakeFiles/edit_cache.dir
+/home/sixelasenshu/Git/COA/coa-tp3-templates/build/tests/CMakeFiles/rebuild_cache.dir
